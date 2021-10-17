@@ -63,9 +63,10 @@
     </build>
 
 
-<!--    <properties>-->
-<!--        <maven.compiler.source>16</maven.compiler.source>-->
-<!--        <maven.compiler.target>16</maven.compiler.target>-->
-<!--    </properties>-->
+    <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
+    </properties>
 
 </project>
